@@ -43,7 +43,7 @@
 
 /// The Number of Stspin840 devices required for initialisation is not supported
 #define STSPIN840_ERROR_0   (0xC000)
-/// Error: Access a motor index greater than the one of the current brigde configuration
+/// Error: Access a motor index greater than the one of the current bridge configuration
 #define STSPIN840_ERROR_1   (0xC001)
 /// Error: Use of a bridgeId greater than BRIDGE_B
 #define STSPIN840_ERROR_2   (0xC002)
@@ -64,7 +64,7 @@ uint8_t Stspin840::numberOfDevices = 0;
  * The call back will be then called each time the library
  * detects an error
  * @param[in] callback Name of the callback to attach
- * to the error Hanlder
+ * to the error Handler
  * @retval None
  **********************************************************/
 void Stspin840::Stspin840_AttachErrorHandler(void (*callback)(uint16_t))
@@ -271,7 +271,7 @@ uint32_t Stspin840::Stspin840_GetRefPwmFreq(uint8_t refId)
 }
 
 /******************************************************//**
- * @brief  Immediatly stops the motor and disable the power bridge
+ * @brief  Immediately stops the motor and disable the power bridge
  * @param[in] motorId from 0 to (MAX_NUMBER_OF_BRUSH_DC_MOTORS - 1)
  * @retval None
  **********************************************************/
@@ -479,7 +479,7 @@ void Stspin840::Stspin840_SetRefPwmDc(uint8_t refId, uint8_t newDc)
   }
 
   devicePrm.refPwmDc[refId] = newDc;
-  /* Immediatly set the PWM frequency  for ref */
+  /* Immediately set the PWM frequency  for ref */
   Stspin840_Board_PwmSetFreq((refId + 2), devicePrm.refPwmFreq[refId], devicePrm.refPwmDc[refId]);
 
 }
@@ -496,7 +496,7 @@ void Stspin840::Stspin840_SetRefPwmFreq(uint8_t refId, uint32_t newFreq)
   }
 
   devicePrm.refPwmFreq[refId] = newFreq;
-  /* Immediatly set the PWM frequency  for ref */
+  /* Immediately set the PWM frequency  for ref */
   Stspin840_Board_PwmSetFreq((refId + 2), devicePrm.refPwmFreq[refId], devicePrm.refPwmDc[refId]);
 
 }

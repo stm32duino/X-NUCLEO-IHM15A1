@@ -213,7 +213,7 @@ class Stspin840 : public BDCMotor {
 
     /**
      * @brief  Initialize the component.
-     * @param  init Pointer to device specific initalization structure.
+     * @param  init Pointer to device specific initialization structure.
      * @retval "0" in case of success, an error code otherwise.
      */
     virtual int init(void *init = NULL)
@@ -427,7 +427,7 @@ class Stspin840 : public BDCMotor {
     }
 
     /**
-     * @brief  Reseting (entering standby mode).
+     * @brief  Resetting (entering standby mode).
      * @param  None.
      * @retval None.
      */
