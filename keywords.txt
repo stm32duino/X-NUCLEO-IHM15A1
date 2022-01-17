@@ -1,0 +1,69 @@
+#######################################
+# Syntax Coloring Map For X-NUCLEO-IHM15A1
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+Component	KEYWORD1
+Stspin840	KEYWORD1
+BDCMotor	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+init	KEYWORD2
+read_id	KEYWORD2
+disable_bridge	KEYWORD2
+enable_bridge	KEYWORD2
+get_bridge_input_pwm_freq	KEYWORD2
+get_bridge_status	KEYWORD2
+get_device_state	KEYWORD2
+get_speed	KEYWORD2
+hard_hiz	KEYWORD2
+hard_stop	KEYWORD2
+run	KEYWORD2
+set_bridge_input_pwm_freq	KEYWORD2
+set_dual_full_bridge_config	KEYWORD2
+set_speed	KEYWORD2
+attach_error_handler	KEYWORD2
+get_direction	KEYWORD2
+get_fw_version	KEYWORD2
+get_ref_pwm_dc	KEYWORD2
+get_ref_pwm_freq	KEYWORD2
+release_reset	KEYWORD2
+reset	KEYWORD2
+set_direction	KEYWORD2
+set_ref_pwm_dc	KEYWORD2
+set_ref_pwm_freq	KEYWORD2
+get_nb_devices	KEYWORD2
+attach_flag_irq	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+STSPIN840_FW_MAJOR_VERSION	LITERAL1
+STSPIN840_FW_MINOR_VERSION	LITERAL1
+STSPIN840_FW_PATCH_VERSION	LITERAL1
+STSPIN840_FW_VERSION	LITERAL1
+STSPIN840_NB_MAX_MOTORS	LITERAL1
+STSPIN840_NB_BRIDGES	LITERAL1
+BRIDGE_A	LITERAL1
+BRIDGE_B	LITERAL1
+PWM_A	LITERAL1
+PWM_B	LITERAL1
+PWM_REF_A	LITERAL1
+PWM_REF_B	LITERAL1
+MAX_NUMBER_OF_DEVICES	LITERAL1
+MAX_NUMBER_OF_BRUSH_DC_MOTORS	LITERAL1
+STSPIN840_CONF_PARAM_FREQ_PWM_A	LITERAL1
+STSPIN840_CONF_PARAM_FREQ_PWM_B	LITERAL1
+STSPIN840_CONF_PARAM_FREQ_PWM_REF_A	LITERAL1
+STSPIN840_CONF_PARAM_FREQ_PWM_REF_B	LITERAL1
+STSPIN840_CONF_PARAM_DC_PWM_REF_A	LITERAL1
+STSPIN840_CONF_PARAM_DC_PWM_REF_B	LITERAL1
+FALSE	LITERAL1
+TRUE	LITERAL1
